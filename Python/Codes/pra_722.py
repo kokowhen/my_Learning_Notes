@@ -1,14 +1,17 @@
 #面向对象
-class test:
+class test1:
+	def f(s,a,b):
+		return a*b
 
-	n="Jeffery"
-	a=24
-	U=["KUST","UESTC"]
+x=test1()
+print(x.f(4,5))
 
-	def f(self,c,d):
-		e=c*d
-		return c*d
 
-x=test()
+class test2:
+	def __init__(self,c,d):
+		self.c=c
+		self.d=d
+		self.e=c*d
 
-print(x.n,x.a,x.U[1],x.f(3,4))
+y=test2(4,5)
+print(y.e)
