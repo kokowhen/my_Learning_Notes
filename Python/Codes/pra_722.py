@@ -20,3 +20,18 @@ class test2:
 
 y=test2(4,5)
 print(y.ep)
+
+
+#看看类里有多个函数的
+class test3:
+	def f1(self):
+		return "Jeffery"
+
+	def f2(self):
+		return 23
+
+	def fs(self):
+		return "UESTC"
+
+z=test3()
+print(z.f1(),z.f2(),z.fs())
