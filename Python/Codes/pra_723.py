@@ -7,6 +7,8 @@
 #对象的句柄用于区分不同的对象n1，n2就是句柄
 #对象的属性就是类当中定义的变量，name和a都是变量
 #对象的方法就是定义类的时候定义的函数，f()是函数
+#全局变量和局部变量
+
 
 #class更抽象一点，把variables和functions封装起来，其中variables就是类的属性，functions就是类的方法
 
@@ -27,6 +29,34 @@ print(n1.f())
 n2=test()	#类里的另外一个对象
 print(n2.f())
 print(n2.name)
+
+
+
+#函数的全局变量和局部变量
+
+
+
+def fun1():
+	a=100
+	print(a)
+	a=200
+	print(a)
+
+fun1()
+
+
+a=300
+def fun2():
+	global a
+	a=200
+	print(a)
+
+def fun3():
+	print(a)
+
+
+fun2()
+fun3()
 
 
 
