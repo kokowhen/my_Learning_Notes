@@ -206,7 +206,7 @@ int main()
 }
 ```
 
-<center>常量知识点思维导图助记😁👀</center>
+常量知识点思维导图助记😁👀
 
 <img src="C:\Users\sjy\Desktop\CodeLife\C++\Mindmaps\常量Constant.png" style="zoom:200%;" />
 
