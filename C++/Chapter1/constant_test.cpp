@@ -1,5 +1,5 @@
 #include<iostream>
-#include<iomanip>
+#include<iomanip>//使用控制符时，在程序开头加头文件来做解释
 using namespace std;
 int main()
 {
@@ -11,6 +11,8 @@ int main()
     cout<<12345.0<<endl;
     cout<<1234.56<<endl;
     cout<<12345.678<<endl;
+    cout<<12.3456<<endl;
+    cout<<12.345678<<endl;
     //八进制和十六进制
     cout<<"八进制和十六进制"<<endl;
     cout<<0123<<endl;
