@@ -165,7 +165,7 @@ Ex.3 求圆的面积
 using namespace std;
 int main()
 {
-    //这个Π可以定义为一个常量constant double PI=3.1415;代码更容易维护，确保值不被改变
+    //这个Π可以定义为一个常量const double PI=3.1415;代码更容易维护，确保值不被改变
     double r,s;
     //r = 10;
     cout<<"Please input the radius:";
