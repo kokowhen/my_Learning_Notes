@@ -6,7 +6,7 @@ int main()
 {
     int a,b,c,d,n,i=33;
     cout<<"numbers are:"<<endl;
-    while (i<99)
+    while (i<99)//预先判断aabb开方的值存在的区间
     {
         n=i*i;
         a=n/1000;
