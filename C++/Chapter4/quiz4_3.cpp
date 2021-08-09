@@ -6,7 +6,7 @@ int main()
 {
     int n,n1,n2,sum=0;
     int sum1,sum2,sum3=0;
-    int i;
+    int ii;
     cout<<"Please input a number:";
     cin>>n;
     if(n<10)cout<<"It's root of number is 0."<<endl;

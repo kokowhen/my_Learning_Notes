@@ -4,12 +4,14 @@
 using namespace std;
 int main()
 {
-    int n=1;
+    int n=1,i=1,ave=0,max;
+    cout<<"Please input numbers:";
     while (n!=0)
     {
-        cout<<"Please input numbers:";
         cin>>n;
-        cout<<"n="<<n;
+        ave=(ave+n)/i;
+        i++;
     }
-    
+    cout<<ave;
+    return 0;
 }
